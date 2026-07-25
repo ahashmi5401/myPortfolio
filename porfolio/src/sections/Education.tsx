@@ -17,7 +17,7 @@ export const Education: React.FC = () => {
       institution: 'Sir Syed University of Engineering and Technology (SSUET)',
       degree: 'B.S. Computer Engineering (GPA: 3.5 / 4.0)',
       period: '2025 – 2029',
-      status: 'Enrolled'
+      status: 'In Progress'
     },
     {
       institution: 'PIAIC / Panaversity',

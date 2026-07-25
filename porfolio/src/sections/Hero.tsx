@@ -12,7 +12,7 @@ const prefersReduced = typeof window !== 'undefined' && window.matchMedia('(pref
 const showCanvas = !isMobile && !prefersReduced;
 
 const roles = [
-  'Front-End Developer',
+  'MERN Stack Developer',
   'React & TypeScript Expert',
   'Agentic AI Architect',
   'UI/UX Implementer',
@@ -160,9 +160,10 @@ export const Hero: React.FC<HeroProps> = ({ onContactClick, onProjectsClick }) =
           ref={descRef}
           style={{ fontSize: '1.1rem', maxWidth: '600px', marginBottom: '3rem', lineHeight: '1.7' }}
         >
-          Based in Karachi, Pakistan. Specialized in translating design mockups into
-          pixel-perfect responsive web interfaces, optimizing load speeds, and building
-          data-driven interactive user experiences.
+          Based in Karachi, Pakistan. Specialized in building full-stack MERN applications —
+          translating design mockups into pixel-perfect responsive interfaces, architecting
+          scalable Node/Express APIs and MongoDB schemas, and shipping secure,
+          data-driven user experiences end-to-end.
         </p>
 
         <div

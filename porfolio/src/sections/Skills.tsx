@@ -44,9 +44,9 @@ export const Skills: React.FC = () => {
       skills: [
         { name: 'Firebase' },
         { name: 'Firestore' },
-        { name: 'Node.js', learning: true },
-        { name: 'Express', learning: true },
-        { name: 'MongoDB', learning: true },
+        { name: 'Node.js' },
+        { name: 'Express'},
+        { name: 'MongoDB'},
         { name: 'PostgreSQL', learning: true }
       ]
     },

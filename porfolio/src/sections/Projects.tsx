@@ -69,6 +69,31 @@ export const Projects: React.FC = () => {
         'Designed supply chain tracking dashboards to streamline food and medical aid for flood relief.',
       ],
     },
+    {
+      title: 'SimuFlux Lab — Engineering Training & Consultancy Platform',
+      date: '2026',
+      liveUrl: 'https://simuflux-lab.vercel.app/',
+      stack: ['Next.js 14', 'MongoDB', 'NextAuth', 'Upstash Redis', 'Cloudinary', 'Resend', 'Google Sheets API', 'Docx Automation'],
+      image: '/simuflux-lab.png',
+      points: [
+        'Built a full-stack platform with a custom pricing engine and rate-limited authentication system.',
+        'Implemented discount system with combo packages and volume-based discounts for live client business.',
+        'Created admin dashboard for managing training programs and consultancy services.',
+      ],
+    },
+    {
+      title: 'Pakistan Impact Council (PIC)',
+      subtitle: 'Non-Profit Platform for Corporate Social Responsibility',
+      date: '2025',
+      liveUrl: 'https://pic-demo.netlify.app/',
+      stack: ['React' , "Type Script" , "Tailwind CSS"],
+      image: '/pic.png',
+      points: [
+        'Built a national platform transforming corporate commitments into measurable social and environmental impact.',
+        'Implemented ESG evaluation and benchmarking frameworks aligned with 17 UN Sustainable Development Goals.',
+        'Created CSR recognition program with awards and certifications for responsible business practices.',
+      ],
+    },
   ];
 
   return (
